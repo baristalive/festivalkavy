@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Special Elite, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(/SpecialElite-Regular.ttf);
+}
+
+:root {
+  --foreground: black;
+  --background: white;
+  --color-faded: #555;
+  --accent-color: #4a290c;
+  --bg-alternate-color: #fafafa;
+  --color: var(--foreground);
+  --bg-color: var(--background);
+}
